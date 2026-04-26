@@ -7,7 +7,7 @@ A malicious piece of software that fills storage.
 * Python
 
 ## Usage
-```git clone https://github.com/apitafilms-boop/mal-war```
+```git clone https://github.com/JessicaEmberlyOfficial/mal-war```
 
 ```cd mal-war```
 
