@@ -7,10 +7,16 @@ A malicious piece of software that fills storage.
 * Python
 
 # Usage
-```git clone https://github.com/JessicaEmberlyOfficial/mal-war```
+```
+git clone https://github.com/JessicaEmberlyOfficial/mal-war
+```
 
-```cd mal-war```
+```
+cd mal-war
+```
 
 ```cd fork```
 
-```python run.py```
+```
+python run.py
+```
