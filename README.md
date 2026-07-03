@@ -15,7 +15,9 @@ git clone https://github.com/JessicaEmberlyOfficial/mal-war
 cd mal-war
 ```
 
-```cd fork```
+```
+cd fork
+```
 
 ```
 python run.py
