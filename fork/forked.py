@@ -10,7 +10,7 @@ def forked():
   randonum = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
   number = 1
   while mal == True:
-    if mal == true:
+    if mal == True:
       time.sleep(1)
       if time == 100:
         mal = false
