@@ -14,7 +14,7 @@ def forked():
       time.sleep(1)
       if ime == 100:
         mal = false
-      elif time != 100:
+      elif ime != 100:
         ime += 1
     else:
       pass
