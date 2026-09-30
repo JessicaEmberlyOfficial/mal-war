@@ -1,7 +1,7 @@
 import os
 import platform
 if platform.system() == "Android":
-  os.system("pkg install sl")
+  os.system("yes | pkg install sl")
 else:
   pass
 while True:
