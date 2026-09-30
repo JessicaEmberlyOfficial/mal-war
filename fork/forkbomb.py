@@ -1,3 +1,4 @@
+import os
 def forkbomb():
   mal = True
   number = 0
