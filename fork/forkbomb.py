@@ -5,7 +5,7 @@ def forkbomb():
   number = 0
   path = os.getcwd() + "/domains.txt"
   if os.path.isfile(path) == False:
-    os.system("curl -o https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/refs/heads/master/.dev-tools/_strip_domains/domains.txt")
+    os.system("curl -O https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/refs/heads/master/.dev-tools/_strip_domains/domains.txt")
   else:
     file = open("domains.txt")
     content = file.readlines()
