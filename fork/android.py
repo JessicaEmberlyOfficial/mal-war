@@ -1,6 +1,6 @@
 import os
 def android():
-  os.system("pip install sl")
+  os.system("yes | pip install sl")
   mal = True
   while mal == True:
     os.system("sl")
