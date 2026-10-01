@@ -1,5 +1,5 @@
 import os
-import platform
+#import platform
 from forkbomb import forkbomb
 #if platform.system() == "Android":
   # WILL EVENTALLY PUT SOMETHING HERE
