@@ -7,7 +7,7 @@ A malicious piece of software that fills storage.
 Entertainment use only.
 
 ## Special Thanks
-* [Mitchel Krog](https://github.com/mitchellkrogza/)
+* [Mitchell Krog](https://github.com/mitchellkrogza/)
 
 ## Requirements
 * Python
