@@ -4,7 +4,7 @@ def forkbomb():
   mal = True
   number = 0
   path = os.getcwd() + "/domains.txt"
-  if os.ispath(path) == False:
+  if os.path.isfile(path) == False:
     os.system("curl -o https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/refs/heads/master/.dev-tools/_strip_domains/domains.txt")
   else:
     pass
