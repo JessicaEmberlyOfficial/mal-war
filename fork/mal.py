@@ -1,4 +1,5 @@
 import os
+import random
 mal = True
 while mal == True:
     random1 = random.choice(randomlet)
