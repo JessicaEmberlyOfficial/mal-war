@@ -1,7 +1,6 @@
 import os
 import random
 def forkbomb():
-  mal = True
   number = 0
   file = open("domains.txt")
   content = file.readlines()
