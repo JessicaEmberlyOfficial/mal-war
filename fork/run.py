@@ -12,5 +12,4 @@ else:
   pass
 while not os.path.isfile(file):
   time.sleep(1)
-while True:
-  forked()
+forked()
