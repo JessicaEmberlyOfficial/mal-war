@@ -6,4 +6,4 @@ def forkbomb():
   file = open("domains.txt")
   content = file.readlines()
   num = random.randint(0, len(content))
-  os.system("xdg-open " + content[num]
+  os.system("xdg-open " + content[num])
