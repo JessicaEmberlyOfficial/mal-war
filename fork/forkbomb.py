@@ -1,5 +1,6 @@
 import os
 import time
+import random
 def forkbomb():
   number = 0
   file = open("domains.txt", "r")
