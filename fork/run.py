@@ -4,4 +4,4 @@ os.system("python _run.py & python bomb.py &")
 
 @atexit.register
 def goodbye():
-  os.system("python atexit.py & python _run.py & python bomb.py &")
+  os.system("python atexit.py &")
