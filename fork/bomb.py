@@ -1,2 +1,2 @@
 import os
-os.system("python mal.py")
+os.system("python mal.py &")
